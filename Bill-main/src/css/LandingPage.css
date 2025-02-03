@@ -1,0 +1,81 @@
+body {
+    background-color: #f8f9fa; /* 밝은 회색 배경으로 변경 */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Landing-Page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white; 
+}
+
+.landing-title {
+    font-family: "Orbit", serif;
+  font-weight: 400;
+    color: #333333;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    margin-top : 200px;
+    text-align: center;
+    background-color: transparent; /* 투명으로 변경 */
+    position: absolute;
+    top: 10%; /* 화면 상단에 위치 */
+    transform: translateY(-50%); /* 중앙 정렬 보정 */
+}
+.title:hover{
+    cursor: pointer;
+     /* 산호색 */
+    color: #ff7043;
+}
+.Landing-Button1,
+.Landing-Button2 {
+    font-family: "Orbit", serif;
+  font-weight: 400;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px; /* 모서리를 둥글게 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+    transition: all 0.3s ease-in-out; /* 부드러운 애니메이션 */
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+
+.Landing-Button1 {
+    margin: 20px;
+    background-color: #ff7f50; /* 산호색 */
+}
+
+.Landing-Button1:hover {
+    background-color: #ff6347; /* 더 진한 산호색 */
+    transform: scale(1.1); /* 버튼 확대 */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* 그림자 강조 */
+}
+
+.Landing-Button2 {
+    margin: 20px;
+    background-color: #b9b7b4; /* 밝은 회색 */
+}
+
+.Landing-Button2:hover {
+    background-color: #a9a7a4; /* 더 진한 회색 */
+    transform: scale(1.1); /* 버튼 확대 */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* 그림자 강조 */
+}
+
+.Landing-Buttons {
+    display: flex;
+    gap: 20px; /* 버튼 간격 */
+    flex-wrap: wrap; /* 버튼이 화면에 맞게 줄바꿈 */
+}
